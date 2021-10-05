@@ -16,20 +16,21 @@
     <p>En esta pantalla puedes dejar tu opinión acerca de James Gosling.</p>
 
     <form>
-        <p><label>Nombre del opinante: <input></label></p>
-        <p><label>Opinión libre acerca del personaje: <input></label></p>
+        <p><label for="name">Nombre del opinante: <input></label></p>
+        <p><label for="Opinion">Opinión libre acerca del personaje: <input></label></p>
 
-        <p><label>Marque las opciones que considere oportunas acerca de James Gosling:</label></p>
-        <p><label> <input type=radio name=size> Su carrera profesional esta sobrevalorada </label></p>
-        <p><label> <input type=radio name=size> Deberían darle más reconocimiento profesional </label></p>
-        <p><label> <input type=radio name=size> No he leido acerca de su vida </label></p>
+        <p><label for="options">Marque las opciones que considere oportunas acerca de James Gosling:</label></p>
+        <p><label> <input id="o1" type=radio name=size> Su carrera profesional esta sobrevalorada </label></p>
+        <p><label> <input id="o2" type=radio name=size> Deberían darle más reconocimiento profesional </label></p>
+        <p><label> <input id="o3" type=radio name=size> No he leido acerca de su vida </label></p>
 
-        <p><label>Deja tu opinión del sitio web:</label></p>
-        <p><label> <input type=checkbox> Me ha gustado el diseño </label></p>
-        <p><label> <input type=checkbox> Me ha gustado el contenido </label></p>
-        <p><label> <input type=checkbox> Me ha gustado todo </label></p>
-
+        <p><label for="opinionWeb">Deja tu opinión del sitio web:</label></p>
+        <p><label> <input id="diseño" type=checkbox> Me ha gustado el diseño </label></p>
+        <p><label> <input id="contenido" type=checkbox> Me ha gustado el contenido </label></p>
+        <p><label> <input id="todo" type=checkbox> Me ha gustado todo </label></p>
+        <input type="submit" value="Enviar">
     </form>
+
 
     <!-- Pie con los iconos de validación -->
     <footer>
